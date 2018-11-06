@@ -65,7 +65,7 @@ public class QuickSort<T> {
 	}
 
 	/**
-	 * Partition take 1
+	 * Partition take 2
 	 * 
 	 * @param a : The array of elements
 	 * @param p : Starting index of the partition
@@ -112,39 +112,6 @@ public class QuickSort<T> {
 	 * Sample driver class 
 	 * @param args
 	 */
-
-	/*public static void main(String[] args) {
-		Timer T = new Timer();
-
-		int n = 10000000;
-		Integer[] a1 = new Integer[n];					
-		int j = 0;
-		for(int i = a1.length - 1; i >= 0 ; i--){
-			a1[i] = j++;								
-		}
-		Shuffle.shuffle(a1);							
-		T.start();										
-		QuickSort.quickSort1(a1);						
-		System.out.println(T.end());
-		for(int i = 10; i < 100; i++){
-			System.out.print(a1[i] + "\t");
-		}
-		System.out.println();
-		j = 0;
-		for(int i = a1.length - 1; i >= 0 ; i--){
-			a1[i] = j++;								//Assigning the position as the value to the Array
-		}												//Shuffling the array make the data unsorted
-		T.start();										
-		QuickSort.quickSort(a1);						//Sorting the Array by calling MergeSort
-		System.out.println(T.end());
-		for(int i = 10; i < 100; i++){
-			System.out.print(a1[i] + "\t");
-		}
-			
-		
-	}
-
-*/
 
     public static void main(String[] args) {
 
